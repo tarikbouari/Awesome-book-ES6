@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+
+<body>
+    <header class=" ">
+        <div class="head-container">
+            <div class="logo">
+                <img src="images/closed-book.svg" alt="logo" class="logo-svg">
+                <span class="logo-span"> <a href="#">Awesome Books</a></span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                     <li>
+                        <a href="#" data-link="1" class="link list-tab">List</a>
+                        
+                    </li>
+                    <li>|</li>
+                     <li>
+                        <a href="#" data-link="2" class="link form-tab">Add Books</a>
+                        
+                    </li>
+                    <li>|</li>
+                    <li>
+                        <a href="#" data-link="3" class="link contact-tab">Contact</a>
+                        
+                    </li>
+                </ul>
+            </nav>
+        </div>   
+    </header>
+    <section class="banner"> 
+        <div class="banner-text">
+            <h1>Build your library</h1>
+            <br>
+            <p> add book to your collection </p>
+        </div>
+        <img src="images/reader.svg" alt="reader">
+    </section>
+    <main class="">
+    <section class="books section section-1 active" id="list-section">
+        <h1>All Awesome Books</h1>
+
+        <div id="container" class="container">
+        </div>
+    </section>
+
+    <section class="add-book section section-2" id="form-section">
+        <div class="center">
+            <h1>Add a new book</h1>
+            <form action="#" method="post" id="form">
+                <input type="text" placeholder="Title" id="title"> <br>
+                <input type="text" placeholder="Author" id="author">
+                <button id="add" class="add" type="submit">Add</button>
+            </form>
+            
+            <span id="message"></span>
+            <div></div>
+        </div>
+    </section>
+    <section class="contact section section-3" id="contact-section">
+        <h1>Contact Information</h1>
+        <div class="contact-div">
+        <h3 >Do you have any question or just want to say hello? You can reach out to us :</h3>
+       <ul>
+        <li> <b>Our email:</b> <a href="@maito">aweseomebook@gmail.com </a></li>
+        <li><b>Our phone number:</b> +233 04453456</li>
+        <li><b>Our adress :</b> Kenya and  Ghana</li>
+       </ul>
+        </div>
+       
+    </section>
+    </main>
+    <footer>
+        <div class="date m-botton2"></div>
+       <h3>Awesome books &copy; 2022</h3>
+    </footer>
+    <script src="index.js" type="module" ></script>
+</body>
+
+</html>
