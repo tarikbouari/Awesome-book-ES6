@@ -1,3 +1,5 @@
+import { container } from './declare.js';
+
 class Book {
   constructor(title, author) {
     this.title = title;

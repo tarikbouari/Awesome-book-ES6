@@ -1,4 +1,4 @@
-import { title, author} from './declare.js';
+import { title, author } from './declare.js';
 
 import { Book } from './class.js';
 
