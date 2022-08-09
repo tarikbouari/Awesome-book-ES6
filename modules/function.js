@@ -1,6 +1,6 @@
 import { title, author } from './declare.js';
 
-import { Book } from './class.js';
+import Book from './class.js';
 
 const storeBook = new Book();
 

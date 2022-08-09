@@ -1,6 +1,6 @@
 import { allSection } from './declare.js';
 
-const click = (e) => {
+export default function click(e) {
   const clicked = e.target;
   if (!clicked.classList.contains('link')) return;
   allSection.forEach((section) => {
@@ -10,6 +10,4 @@ const click = (e) => {
   document
     .querySelector(`.section-${clicked.dataset.link}`)
     .classList.add('active');
-};
-
-export { click };
+}

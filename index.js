@@ -3,10 +3,10 @@ import {
 }
 from './modules/declare.js';
 
-import { Book } from './modules/class.js';
+import Book from './modules/class.js';
 
 import { addToList, addremoveList } from './modules/function.js';
-import { click } from './modules/section.js';
+import click from './modules/section.js';
 
 import { DateTime } from './modules/luxon.js';
 

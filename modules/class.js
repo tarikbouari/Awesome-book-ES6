@@ -1,6 +1,6 @@
 import { container } from './declare.js';
 
-class Book {
+export default class Book {
   constructor(title, author) {
     this.title = title;
     this.author = author;
@@ -53,5 +53,3 @@ class Book {
       this.loadBooks();
     }
 }
-
-export { Book };
