@@ -3,8 +3,9 @@
 # Awesome-book
 
 ## Description 
-> This project has been assigned to us by microverse.
-> Awesome-book is a online library website were can be stored a collection of books. Different book  can be added and removed.
+
+> Awesome-book is an online library website where a user can store a collection of books.  Differents book can be added and removed. Built with JavaScript using Dom
+> This project has been assigned to me by microverse.
 
 ## Built With
 - Languages: HTML5, CSS5, JavaScript
