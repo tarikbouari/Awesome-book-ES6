@@ -4,7 +4,7 @@
 
 ## Description 
 
-> Awesome-book is an online library website where a user can store a collection of books.  Differents book can be added and removed. Built with JavaScript using Dom
+> Awesome-book is an online library website where a user can store a collection of books.  Differents book can be added and removed. Build with JavaScript using Dom
 > This project has been assigned to me by microverse.
 
 ## Built With
